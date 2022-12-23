@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    padding-left:0px
+}
+.nav-item{
+    justify-content:end !important; 
+}
+.left{
+    float: right !important;
+}
+
+.bg-info{
+    background-color: rgb(15, 47, 83) !important;
+}
+#topnav li:hover{
+    background-color: rgb(100, 50, 146);
+    display: block;
+}
+
+#log:hover{
+    background-color: rgb(100, 50, 146);
+}
+#logo{
+    height: 40px;
+    width: 60px;
+}
+/* .nav-item{
+    float: right !important;
+}  */
+
+.card{
+    
+        /* border: 1px solid; */
+        /* box-shadow: 5px 10px 8px #888888; */
+        box-shadow: 5px 10px 18px #4e5a8d;
+      }
+#cardd:hover{
+    background-color: rgb(31, 33, 61) !important;
+
+}
+
+#cardd:hover #price{
+color: white !important;
+
+
+}
+.btn-primary{
+   background-color: rgb(101, 37, 145);
+}
+.bg-info{
+    background-color: rgb(35, 8, 59);
+}
+.fa-gears{
+    height: 60px !important ;
+    width: 80px !important;
+}
+
+.detaild{
+    padding: 4px !important;
+}
+
+
+ul.a {
+    list-style-type: none;
+  } 
+  
+  /* ========garllary============================= */
+  /* #images-6 img{
+     width: 100%;
+  } */
+
+  /* ===================================== */
+
+  
+#tophead-div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+   background-color: rgb(255, 255, 255);
+  }
+  
+  #tophead-div h2 
+  {
+    position: relative; 
+    font-style: italic;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Sofia', sans-serif;
+    color: #222;
+    /* -webkit-text-stroke: 0.3vw #383d52; 
+  text-transform: uppercase; */
+  }
+  
+  #tophead-div h2::before
+  {
+  content: attr(data-text);
+  position: absolute;
+  color: rgb(73, 58, 95);
+  width: 350px;
+  overflow: hidden;
+  white-space: nowrap;
+  /* 
+  height: 100%;
+  top: 0;
+  Left: 0;
+   
+  -webkit-text-stroke: 0vw #383d52; */
+  border-right: 4px solid rgb(73, 58, 95);
+  animation: animate 7s linear infinite;
+  filter: drop-shadow(0 0 20px rgb(73, 58, 95)) drop-shadow(0 0 50px rgb(73, 58, 95));
+  }
+  
+  @keyframes animate
+  {
+     0%, 10%,100%
+     {
+      width:0;
+     }
+  
+     70%,90%
+     {
+      width:100%;
+     }
+  }
+  
+
+
+  
