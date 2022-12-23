@@ -6,6 +6,8 @@ const disp=document.getElementById('demo')
 
 const quoteD=document.getElementById('quote')
 
+const btn=document.getElementById("clockbtn")
+
 console.log(hourhandle);
 
  setClock=()=>{
@@ -53,10 +55,12 @@ function hideclock(){
         console.log()
      document.getElementById("demo").style.display = 'block';
      quoteD.style.display='none';
+     btn.innerText='hide'
     }
     else if(disp.style.display == 'block'){
         document.getElementById("demo").style.display = 'none';
         quoteD.style.display='block';
+        btn.innerText='show'
     }  
     
     else{
